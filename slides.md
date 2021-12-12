@@ -29,9 +29,9 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 
 * A __read only__ API that serves custom selected parts of OSM data
 * It has 2 query languages:
-  * __Overpass XML__: very verbose but trully explicit
-  * __Overpass QL__: lightweight but a bit magic
-* It can export data to JOSM, OSM data file, CSV, GeoJSON, ...
+  * __Overpass XML__: very verbose but trully explicit 🗣️
+  * __Overpass QL__: lightweight but a bit magic ✨
+* 💾 It can export data to JOSM, OSM data file, CSV, GeoJSON, ...
 
 
 *️⃣ API = Application Programming Interface
@@ -42,7 +42,7 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 * Overpass API do not query OSM database directly. Instead it queries a clone of the main database based on a planet file (export of OSM database)
   * 🕒 It explains why data are not always up-to-date in Overpass API
 * Overpass API is an ✅ OpenSource software and have many instances:
-  * Main instance: https://overpass-api.de/api/interpreter
+  * Main instance: 🇩🇪 https://overpass-api.de/api/interpreter
   * And a lot of others: 🇫🇷 OSM-fr, 🇨🇭 OSM-ch, 🇷🇺 OSM-ru, 🇹🇼 OSM-tw, ...
   
   https://wiki.openstreetmap.org/wiki/Overpass_API#Public_Overpass_API_instances
@@ -67,6 +67,7 @@ out meta;
 </union>
 <print mode="meta"/>
 ```
+https://overpass-turbo.eu/s/1e5Y
 
 ---
 # 😅 Overpass XML 'almost' explicit...
@@ -131,12 +132,13 @@ out meta;
 out meta;
 ```
 
-So now, you understand better the X of eXtensible in XML. 🤣
+So now, you better understand the X of eXtensible in XML. 🤣
 
 ---
 # 🔧 Overpass-Turbo: a tool to call Overpass API
 
-http://overpass-turbo.eu
+🤩 http://overpass-turbo.eu (stable version)
+😍 https://tyrasd.github.io/overpass-turbo/ (latest version)
 
 Still the same query 😅:
  * In Overpass QL: http://overpass-turbo.eu/s/1e1F
@@ -152,7 +154,7 @@ Use the 'Export' button to convert to QL or XML...
 * Launch JOSM and enable the "Remote control": https://josm.openstreetmap.de/wiki/Help/Preferences/RemoteControl
 * Go to Overpass Turbo and run your query
 * Click on Export > Data > JOSM
-* Your data are loaded in JOSM
+* Your data are loaded in JOSM 🪄
 
 ---
 
@@ -169,7 +171,7 @@ Use the 'Export' button to convert to QL or XML...
 
 # 🎲 From Overpass API to Maproulette
 
-Why not creating MapRoulette challenge by querying wrong or incomplet OSM data with Overpass API?
+Why not creating MapRoulette challenges by querying wrong or incomplete OSM data with Overpass API?
 
 ![bg right 70%](https://wiki.openstreetmap.org/w/images/d/d6/MapRoulette-logo.svg)
 
@@ -192,7 +194,7 @@ out;
 Try it for free!!! 💵 http://overpass-turbo.eu/s/1e1S
 
 ---
-# 🗾 Instruction 'area' or how to get a zone by its name
+# 🗾 Instruction 'area' or how to get a specific zone
 
 ```c
 area[name="France métropolitaine"]->.FRM;
@@ -220,7 +222,7 @@ out geom;
 http://overpass-turbo.eu/s/1e1U
 
 ---
-# 🥱 Get amenity nodes and way
+# 🥱 Get amenity nodes and ways
 
 ```c
 area[name="Mariac"]->.a;
@@ -230,7 +232,7 @@ out geom;
 http://overpass-turbo.eu/s/1e1V
 
 ---
-# 🤔 Get amenity nodes and way... again
+# 🤔 Get amenity nodes and ways... again
 
 ```c
 area[name="Mariac"]->.a;
@@ -250,7 +252,7 @@ out geom;
 http://overpass-turbo.eu/s/1e1X
 
 ---
-# 🤨 Get amenity nodes, way and relation
+# 🤨 Get amenity nodes, ways and relations
 
 ```c
 area[name="Mariac"]->.a;

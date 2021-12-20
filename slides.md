@@ -7,14 +7,16 @@ marp: true
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
 ---
 
-![bg left:37% 100%](https://wiki.openstreetmap.org/w/images/b/b5/Overpass_API_logo.svg)
+![bg left:35% 100%](https://wiki.openstreetmap.org/w/images/b/b5/Overpass_API_logo.svg)
 
 # **Overpass API**
 
 ## An API to query OpenStreetMap data.
 
+
+About this presentation:
 👨‍💻 [User:Binnette](https://wiki.openstreetmap.org/wiki/User:Binnette)
-📅 2021-12-10
+📅 2021-12-20
 🟢 License MIT
 
 ---
@@ -43,9 +45,18 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
   * 🕒 It explains why data are not always up-to-date in Overpass API
 * Overpass API is an ✅ OpenSource software and have many instances:
   * Main instance: 🇩🇪 https://overpass-api.de/api/interpreter
-  * And a lot of others: 🇫🇷 OSM-fr, 🇨🇭 OSM-ch, 🇷🇺 OSM-ru, 🇹🇼 OSM-tw, ...
+  * And [a lot of others](https://wiki.openstreetmap.org/wiki/Overpass_API#Public_Overpass_API_instances): 🇫🇷 OSM-fr, 🇨🇭 OSM-ch, 🇷🇺 OSM-ru, 🇹🇼 OSM-tw, ...
   
-  https://wiki.openstreetmap.org/wiki/Overpass_API#Public_Overpass_API_instances
+
+---
+# 🗺️ About OSM data
+
+![bg right:41% 90%](https://wiki.openstreetmap.org/w/images/c/cd/ShapeHanfelden.svg)
+3 types of data ("[elements](https://wiki.openstreetmap.org/wiki/Elements)"):
+* nodes: a point with lat/lon
+* ways: connexion between multiples points
+  * And also closed ways, areas, ...
+* relations: virtual objects linking nodes and/or ways
 
 ---
 # 👅 Overpass query languages
@@ -172,6 +183,7 @@ Use the 'Export' button to convert to QL or XML...
 # 🎲 From Overpass API to Maproulette
 
 Why not creating MapRoulette challenges by querying wrong or incomplete OSM data with Overpass API?
+https://maproulette.org/
 
 ![bg right 70%](https://wiki.openstreetmap.org/w/images/d/d6/MapRoulette-logo.svg)
 
@@ -279,3 +291,23 @@ http://overpass-turbo.eu/s/1e1X
 All my overpass queries:
 
 https://wiki.openstreetmap.org/wiki/User:Binnette/OverpassQueries
+
+---
+
+# 💠 Appendix
+
+* [Official Overpass API documentation](http://overpass-api.de/)
+* On OSM wiki:
+  * [Overpass API](https://wiki.openstreetmap.org/wiki/Overpass_API)
+  * [Overpass QL](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL)
+  * [Query example](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example)
+  * [Styling Overpass Turbo with CSS](https://wiki.openstreetmap.org/wiki/Overpass_turbo/MapCSS)
+  * [All my Overpass Queries](https://wiki.openstreetmap.org/wiki/User:Binnette/OverpassQueries)
+
+---
+
+# 💡 Any question ?
+
+* Feel free to contact me by private message:
+  * On OSM: https://www.osm.org/user/Binnette
+  * On the Wiki: https://wiki.openstreetmap.org/wiki/User:Binnette
